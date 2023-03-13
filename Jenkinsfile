@@ -4,7 +4,7 @@ def version   = "1.0.0"
 pipeline {
     agent{
         node {
-            label "nodeslave"
+            label "slave"
         }
     }
     tools {nodejs "node-js"}
